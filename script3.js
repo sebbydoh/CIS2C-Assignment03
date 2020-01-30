@@ -9,3 +9,11 @@
 //  # # # #
 // # # # #
 //  # # # #
+
+for(num = 1; num <= 8; num++){
+    if(num % 2 == 0){
+        console.log("# # # #");
+    } else {
+        console.log(" # # # #");
+    }
+}
